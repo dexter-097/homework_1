@@ -1,6 +1,6 @@
 text = input('введите строку: ')
-first = text.find(('h'))
-last = text.rfind(('h'))
+first = text.find('h')
+last = text.rfind('h')
 new_text = ''
 for i in range(len(text)):
     if i != first and i != last:
